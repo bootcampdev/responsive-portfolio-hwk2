@@ -1,0 +1,35 @@
+html,
+body,
+header,
+.main-view {
+  height: 100%;
+}
+/* .main-body {
+    background-image: url("http://www.pngmart.com/files/7/Abstract-Lines-PNG-Background-Image.png");
+} */
+
+.navbar-brand {
+    background-color: lightseagreen;
+    color: whitesmoke;
+}
+
+.navbar-custom {
+    background-color: lightgray;
+}
+/*
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+  } */
+
+  /* @media (max-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            text-align: center;
+        }
+    } */
