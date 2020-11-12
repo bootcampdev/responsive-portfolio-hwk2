@@ -16,13 +16,52 @@ header,
 .navbar-custom {
     background-color: lightgray;
 }
-/*
+
 .nav ul {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
     flex-direction: row-reverse;
+  }
+
+/* #footer {
+    position: absolute;
+    margin-top: 90px;    
+    height: 40px;
+    clear: both;
+    background-color: gray;
+    width: 100%;
   } */
+
+  .portfolio-img {
+    float: left;
+    width: 33.33%;
+    max-height: 350px;
+    max-width: 350px;
+    margin-bottom: 10px;    
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: gray;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: lightseagreen;
+    border-top-width: 4px;
+ }
+
+
+
 
   /* @media (max-width: 768px) {
     .navbar-brand.abs
