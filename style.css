@@ -24,6 +24,10 @@ header,
     flex-direction: row-reverse;
   }
 
+  .me-pic-desc {
+    display: flex;
+    align-items: flex-start;
+  }
 /* #footer {
     position: absolute;
     margin-top: 90px;    
